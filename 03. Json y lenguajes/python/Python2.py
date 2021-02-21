@@ -1,0 +1,7 @@
+import json
+
+datos = '''[{"nombre": "Luis Berganza", "profesor": true, "idCursos": [53,765,675], "id": 313, "cursos": {"marketing": "Mi primera app para iPhone", "programacion": ["Objective C", "Xcode", "Json"]}}]'''
+
+a = json.loads(datos)
+
+print (a)
